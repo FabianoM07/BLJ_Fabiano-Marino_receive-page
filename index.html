@@ -1,1 +1,222 @@
-<h1>Hallo!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('SchokoCake.jpg');
+            background-size: cover; /* Das Bild so anpassen, dass es den gesamten Hintergrund bedeckt */
+            background-position: center top; /* Das Bild in der Mitte ausrichten */
+            background-repeat: no-repeat; /* Das Bild nicht wiederholen */
+            font-family: Arial, sans-serif;
+            margin: 0; /* Den Standardmargin des Body entfernen */
+            padding: 0; /* Den Standardpadding des Body entfernen */
+            margin-top: 16%;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Hier kannst du die Transparenz anpassen (0 = transparent, 1 = undurchsichtig) */
+            z-index: -1; /* Das Pseudo-Element hinter den Inhaltselementen positionieren */
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.158);
+            padding: 10px;
+            margin-top: -16%;
+            color: #ffffff;
+
+        }
+
+        h2 {
+            color: #ffffff;
+            width: 50%;
+            margin: 0 auto;
+            margin-left: 85%;
+            margin-top: 30%;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+        }
+
+        .left-text, .right-text {
+            position: absolute;
+            width: 2%;
+            color: #ffffff;
+            max-width: px;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .left-text {
+            left: 15%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .right-text {
+            right: 35%; /* Ändere den Wert nach Bedarf */
+            top: 48.6%;
+            transform: translate(50%, -50%);
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 333px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            position: center;
+        }
+
+        
+
+        li {
+            color: #ffffff;
+        }
+
+        
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            justify-content: center;
+            
+        }
+
+        p {
+            margin-bottom: 22px;
+            color: #ffffff;
+            white-space: pre-line; /* Dieser Stil behält Zeilenumbrüche und Abstände bei */
+            width: 45%;
+            text-align: center;
+            margin-left: -440%;
+
+        }
+
+        .left-text ul li {
+            margin-bottom: 30px;
+        }
+
+        .right-text p {
+            white-space: nowrap;
+            
+        }
+
+        footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* Stil des Unterstrichs entfernen */
+    transition: border-color 0.3s ease; /* Hinzufügen von Animationsübergängen */
+    cursor: pointer;
+    margin-left: 5%;
+    margin: 0 155px;
+    
+}
+
+footer a:hover {
+    border-bottom: 2px solid white; /* Fügen Sie einen Unterstrich hinzu, wenn der Link hover ist */
+}
+
+footer a#pictures_html {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 4%; /* Ändere den Wert nach Bedarf */
+    position: relative;
+}
+
+footer a#pictures_html:hover {
+    border-bottom: 2px solid white;
+}
+
+footer a#impressum_html {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 22%; /* Ändere den Wert nach Bedarf */
+    position: relative;
+}
+
+footer a#impressum_html:hover {
+    border-bottom: 2px solid white;
+}
+
+
+        
+
+
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chocolate Cake Recipe</h1>
+    </header>
+
+    <div class="columns">
+        <div class="left-text">
+            <h2>Ingredients:</h2><br>
+            <ul>
+                <li>55g chocolate</li>
+                <li>140g butter</li>
+                <li>150g sugar</li>
+                <li>4 eggs</li>
+                <li>100g flour</li>
+                <li>200g ground almonds</li>
+                <li>1 tablespoon vanilla sugar</li>
+            </ul>
+        </div>
+
+        <div class="right-text">
+            <h2>Instructions:</h2><br>
+             <p><b>1.</b> Preheat the oven to 180°C fan oven.<br><br>
+                <b>2.</b> Melt the butter.<br><br>
+                <b>3.</b> Separate the eggs.<br><br>
+                <b>4.</b> Whisk the egg whites.<br><br>
+                <b>5.</b> Add all the ingredients except the egg whites to the butter and mix.<br><br>
+                <b>6.</b> Finally, fold in the egg whites until the batter is well combined but still fluffy.<br><br>
+                <b>7.</b> Pour the batter into the greased springform pan and bake for<br> approx. 30 minutes, test with a skewer.<br><br>
+                <b>8.</b> The cake should still be moist but not runny. Leave the cake to cool.
+
+
+               </p>
+        </div>
+    </div>
+
+    <footer>
+        <b><a href="Impressum.html">Impressum</a></b>
+        <b><a href="pictures.html">Pictures</a></b>
+
+    </footer>
+
+</body>
+</html>
