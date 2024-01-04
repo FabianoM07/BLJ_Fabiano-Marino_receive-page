@@ -123,25 +123,19 @@
         }
 
         .image-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 100px;
-    justify-content: center;
-    margin-top: -250px;
-     }
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; /* Reduzierte Lücke zwischen den Bildern */
+        justify-content: center;
+        margin-top: -150px;
+    }
 
-        .image-container img {
-            width: 100%;
-            height: auto;
-            display: block; /* Hinzufügen: block-Element für margin-Auto-Zentrierung */
-            margin: 0 auto; /* Hinzufügen: Zentrierung der Bilder im Grid */
-        }
+    .image-container img {
+        max-width: 100%; /* Bilder nehmen die gesamte Breite der Container-Zellen ein */
+        height: auto; /* Automatische Höhe beibehalten, um das Bild nicht zu strecken */
+    }
 
-        .image-container {
-    max-width: 1500px; /* Ändern Sie dies auf die gewünschte Breite (prozentual oder in Pixeln) */
-    margin: 333 auto;
-    height: 122px;
-}
+    
 
     </style>
 </head>
@@ -167,7 +161,7 @@
 
     <footer>
         <b><a href="Impressum.html">Impressum</a></b>
-        <b><a href="pictures.html">Pictures</a></b>
+        <b><a href="index.html">Recipe</a></b>
     </footer>
 
 </body>
